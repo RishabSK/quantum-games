@@ -151,8 +151,10 @@ body{
         font-size: 0.8rem;
     }
     .fix{
+       position: fixed;
         width: 350px;
-    height: 100px;
+        height: 100px;
+        bottom: 2.5px;
 
     }
    
