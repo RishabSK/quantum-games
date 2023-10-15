@@ -1,0 +1,86 @@
+*{
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s ease-in-out;
+    user-select: none;  
+   
+    
+}
+h1{
+    font-size: 3rem;
+    font-weight: 525;
+    color: greenyellow; 
+   
+}
+.title{
+    background-color: black;
+    height: 100px;
+ padding-top: 1px;
+ padding-bottom: 10px;
+ border-radius: 10px;
+ width: auto;
+}
+h2{
+    font-size: 1.6rem;
+    color: greenyellow;
+    text-shadow:4px 4px 3px black;
+}
+.para{
+    display: inline-block;
+    width:auto;
+    height:120px;
+    background-color: black;
+    border-radius: 10px;
+}
+p{
+    color: white;
+}
+#p1,#c{
+    font-size: 1.2rem;
+
+}
+
+
+body{
+  
+    text-align: center;
+    background-color: blueviolet;
+}
+
+h3{
+    margin-top: 50px;
+    color: greenyellow;
+    font-size: 1.6rem;
+    text-shadow: 4px 4px 3px black;
+}
+.abt{
+    
+    font-size: 1.2rem;
+    color: greenyellow;
+    text-shadow: 4px 4px 3px black;
+    
+
+}
+
+button{
+    margin-top: 30px;
+    padding:10px 25px ;
+    color: black;
+    background-color:greenyellow ;
+    display:inline-block ;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    cursor:pointer ;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 525;
+    text-shadow: 1px 1px 2px;
+}
+
+button:hover{
+    padding: 20px 50px;
+    background-color: aqua;
+}
