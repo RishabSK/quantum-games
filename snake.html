@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+    <script src="snake.js"></script>
+</head>
+<body>
+    <h1>Snake🐍</h1>
+    <canvas id="board"></canvas>
+    
+        <h2 id="gameover"></h2>
+    
+        <button id="restart" onclick="refresh()">Play Again</button>
+        <button id="home">🏠</button>
+        <div id="score">Score🎯 : 0</div>
+        <div class="dec2">
+            👽
+        </div>
+        <div class="dec3">
+            🤖
+        </div>
+        <div class="dec9">
+            🪄🎵
+        </div>
+        <div class="dec10">
+            🎧⚡
+        </div>
+    <script>
+function refresh(){
+    window.location.reload();
+}
+document.getElementById("home").onclick = function(){
+            location.href="./index.html";
+        };
+    </script>
+   
+</body>
+</html>
