@@ -21,8 +21,8 @@
     </div>
     <div class="option">
         <button id="tic">TIC-TAE-TOE </button> <br>
+         <button id="snake">SNAKE</button> <br>
         <button id="chess">CHESS</button>  <br>
-        <button id="snake">SNAKE</button>
     </div>
     <div class="abt">
             <h3>About us</h3>
@@ -33,13 +33,14 @@
             location.href = "./tic.html";
         };
 
+         document.getElementById("snake").onclick = function(){
+            location.href="./snake.html";
+        };
+        
         document.getElementById("chess").onclick = function(){
             location.href="./cons.html";
         };
         
-        document.getElementById("snake").onclick = function(){
-            location.href="./cons.html";
-        };
 
     </script>
 </body>
